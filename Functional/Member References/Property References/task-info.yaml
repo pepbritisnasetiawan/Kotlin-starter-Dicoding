@@ -1,0 +1,21 @@
+type: theory
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    var message = "Kotlin"
+
+    fun main() {
+        println(::message.name)
+        println(::message.get())
+
+        ::message.set("Kotlin Academy")
+
+        println(::message.get())
+    }
+  learner_created: false
+status: Solved
+feedback:
+  time: Thu, 17 Jun 2021 23:44:43 UTC
+record: -1
+post_submission_on_open: true
